@@ -9,7 +9,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Фоновое изображение не прокручивается вместе со страницей */
-    /* Остальные стили оставь без изменений */
 }
 
 header, footer {
@@ -40,9 +39,15 @@ nav ul li a {
 }
 
 main {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
     padding: 15px;
 }
 
 section h2 {
     color: #004d99; /* цвет заголовков */
+}
+
+/* Дополнительные стили для улучшения читаемости */
+p, h1, h2, h3, li {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Тень для текста */
 }
