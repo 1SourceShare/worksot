@@ -1,0 +1,43 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* светлый фон для всего сайта */
+    color: #333; /* темный цвет текста */
+}
+
+header, footer {
+    background-color: #004d99; /* темно-синий фон для шапки и подвала */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 15px;
+}
+
+section h2 {
+    color: #004d99; /* цвет заголовков */
+}
