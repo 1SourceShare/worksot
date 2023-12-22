@@ -5,9 +5,9 @@ body {
     padding: 0;
     background-color: #f8f8f8; /* светлый фон для всего сайта */
     color: #333; /* темный цвет текста */
-    background-image: url('https://raw.githubusercontent.com/1SourceShare/worksot/main/css/6.png'); /* Укажи здесь путь к изображению */
-    background-size: cover; /* Позволяет изображению покрыть весь фон */
-    background-repeat: no-repeat; /* Предотвращает повторение изображения */
+    background-image: url('https://raw.githubusercontent.com/1SourceShare/worksot/main/css/6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed; /* Фоновое изображение не прокручивается вместе со страницей */
     /* Остальные стили оставь без изменений */
 }
