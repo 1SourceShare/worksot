@@ -2,39 +2,38 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('css/12.png'); /* Укажите путь к вашему фоновому изображению */
+  background-image: url('https://github.com/1SourceShare/worksot/blob/main/css/12.png');/* Путь к фоновому изображению */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #333; /* Выберите цвет текста, который будет хорошо виден на фоне */
-    text-align: center;
+    color: #333;
 }
 
 header, footer {
-    background-color: rgba(0, 77, 153, 0.7); /* Полупрозрачный фон, согласующийся с цветами изображения */
+    background-color: rgba(0, 77, 153, 0.6); /* Синий цвет для шапки и подвала */
     color: white;
-    text-align: left;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 h1, h2, h3 {
-    color: #fff; /* Белый цвет для заголовков */
+    color: #d50000; /* Красный цвет для заголовков */
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для основного содержимого */
-    padding: 15px;
-    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачный белый фон для контента */
+    padding: 20px;
+    margin: 20px auto;
     max-width: 800px;
+    border-radius: 10px;
 }
 
 p, li {
     line-height: 1.6;
-    color: #000; /* Черный или темный цвет текста для лучшей читаемости */
+    color: #000;
 }
 
 a {
-    color: #004d99; /* Цвет ссылок, согласующийся с общей цветовой гаммой */
+    color: #004d99; /* Синий цвет для ссылок */
 }
 
-/* Другие стили по вашему усмотрению */
+/* Дополнительные стили по вашему усмотрению */
