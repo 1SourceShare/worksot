@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-  background-image: url('https://github.com/1SourceShare/worksot/blob/main/css/12.png');/* Путь к фоновому изображению */
+    background-image: url('https://github.com/1SourceShare/worksot/blob/main/css/12.png'); /* Путь к фоновому изображению */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,17 +10,18 @@ body {
 }
 
 header, footer {
-    background-color: rgba(0, 77, 153, 0.6); /* Синий цвет для шапки и подвала */
+    background-color: rgba(0, 77, 153, 0.8); /* Усиленная прозрачность */
     color: white;
     padding: 10px 20px;
 }
 
 h1, h2, h3 {
-    color: #d50000; /* Красный цвет для заголовков */
+    color: #fff; /* Белый цвет для заголовков */
+    text-shadow: 2px 2px 4px #000000; /* Тень для текста */
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачный белый фон для контента */
+    background-color: rgba(255, 255, 255, 0.9); /* Менее прозрачный фон для контента */
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -30,10 +31,12 @@ main {
 p, li {
     line-height: 1.6;
     color: #000;
+    text-shadow: 1px 1px 2px #ffffff; /* Светлая тень для текста */
 }
 
 a {
     color: #004d99; /* Синий цвет для ссылок */
+    text-shadow: 1px 1px 2px #ffffff; /* Светлая тень для ссылок */
 }
 
 /* Дополнительные стили по вашему усмотрению */
