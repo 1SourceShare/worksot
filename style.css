@@ -13,7 +13,7 @@ body {
 header, footer {
     background-color: rgba(0, 77, 153, 0.7); /* Полупрозрачный фон, согласующийся с цветами изображения */
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px 0;
 }
 
