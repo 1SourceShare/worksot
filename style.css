@@ -1,6 +1,6 @@
 /* Основные стили */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8; /* светлый фон для всего сайта */
@@ -8,6 +8,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Фоновое изображение не прокручивается вместе со страницей */
+    text-align: center; /* Выравнивание текста по центру */
 }
 
 header, footer {
@@ -24,7 +25,7 @@ header h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto; /* Центрирование навигации */
 }
 
 nav ul li {
@@ -40,13 +41,25 @@ nav ul li a {
 main {
     background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
     padding: 15px;
+    margin: 0 auto; /* Центрирование основного содержимого */
+    max-width: 800px; /* Максимальная ширина контента */
 }
 
-section h2 {
+section h2, section h3 {
     color: #004d99; /* цвет заголовков */
+    text-align: center; /* Выравнивание заголовков по центру */
 }
 
 /* Дополнительные стили для улучшения читаемости */
 p, h1, h2, h3, li {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Тень для текста */
+    line-height: 1.6; /* Увеличение межстрочного интервала */
+}
+
+ul {
+    padding-left: 0; /* Удаление отступа у списков */
+}
+
+li {
+    text-align: left; /* Выравнивание элементов списка по левому краю */
 }
