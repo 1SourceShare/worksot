@@ -2,26 +2,27 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/1SourceShare/worksot/blob/main/css/12.png'); /* Путь к фоновому изображению */
+    background-image: url('https://github.com/1SourceShare/worksot/blob/main/css/12.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #333;
+    text-align: left; /* Выравнивание текста по левому краю */
 }
 
 header, footer {
-    background-color: rgba(0, 77, 153, 0.8); /* Усиленная прозрачность */
+    background-color: rgba(0, 77, 153, 0.6); /* Снижение прозрачности для лучшей видимости */
     color: white;
     padding: 10px 20px;
 }
 
 h1, h2, h3 {
-    color: #fff; /* Белый цвет для заголовков */
-    text-shadow: 2px 2px 4px #000000; /* Тень для текста */
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.9); /* Менее прозрачный фон для контента */
+    background-color: rgba(255, 255, 255, 0.5); /* Уменьшение прозрачности фона */
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -31,12 +32,12 @@ main {
 p, li {
     line-height: 1.6;
     color: #000;
-    text-shadow: 1px 1px 2px #ffffff; /* Светлая тень для текста */
+    text-shadow: 1px 1px 2px #ffffff;
 }
 
 a {
-    color: #004d99; /* Синий цвет для ссылок */
-    text-shadow: 1px 1px 2px #ffffff; /* Светлая тень для ссылок */
+    color: #004d99;
+    text-shadow: none; /* Убрать тень для лучшей читаемости */
 }
 
-/* Дополнительные стили по вашему усмотрению */
+/* Все дополнительные стили, которые вы считаете нужными */
